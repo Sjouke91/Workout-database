@@ -1,0 +1,21 @@
+{
+  "development": {
+    "url": "postgres://tzykmubf:HtQtQzBoVlrfcCm1KNqiBOIM6YlwDeY4@dumbo.db.elephantsql.com:5432/tzykmubf",
+    "dialect": "postgres",
+    "operatorsAliases": "0"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
